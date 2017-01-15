@@ -5,7 +5,7 @@ function initMap() {
     var locations = {!! json_encode($coords) !!};
     console.log(locations);
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 17,
+        zoom: 14,
         center: new google.maps.LatLng(30.044381, 31.235723),
         mapTypeId: google.maps.MapTypeId.ROADMAP
     });
