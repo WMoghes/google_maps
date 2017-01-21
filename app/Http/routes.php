@@ -15,3 +15,13 @@ Route::get('/', [
     'uses'          => 'MapController@index',
     'as'            => 'maps'
 ]);
+
+Route::get('/add', [
+    'uses'          => 'MapController@add',
+    'as'            => 'add.map'
+]);
+
+Route::get('/google_map', [
+    'uses'          => 'MapController@getGoogle',
+    'as'            => 'get.map'
+]);

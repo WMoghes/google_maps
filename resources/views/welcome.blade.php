@@ -7,6 +7,9 @@
                 height: 400px;
                 width: 500px;
             }
+            .controls {
+                width: 350px;
+            }
         </style>
     </head>
     <body>

@@ -18,4 +18,14 @@ class MapController extends Controller
         $coords = $test;
         return view('welcome', compact('coords'));
     }
+
+    public function add(Request $request)
+    {
+        return view('add');
+    }
+
+    public function getGoogle()
+    {
+        return view('google_map');
+    }
 }
